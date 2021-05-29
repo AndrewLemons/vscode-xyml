@@ -5,6 +5,7 @@
 	"icon": "icon.png",
 	"description": "XYML language support for VS Code.",
 	"version": "0.0.1",
+	"repository": "https://github.com/AndrewLemons/vscode-xyml",
 	"scripts": {
 		"format": "prettier -w ."
 	},
