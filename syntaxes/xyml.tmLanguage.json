@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "XYML",
+	"patterns": [
+		{
+			"name": "entity.name.tag.xyml",
+			"match": "\\w+(?::)"
+		},
+		{
+			"name": "entity.name.function.xyml",
+			"match": "(?:\\+ )\\w+(?::)"
+		},
+		{
+			"name": "string.quoted.double.xyml",
+			"match": "\".*\""
+		},
+		{
+			"name": "constant.numeric.xyml",
+			"match": "\\d+"
+		},
+		{
+			"name": "constant.language.xyml",
+			"match": "\\b(true|false)\\b"
+		}
+	],
+	"scopeName": "source.xyml"
+}

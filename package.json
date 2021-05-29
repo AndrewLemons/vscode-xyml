@@ -1,0 +1,40 @@
+{
+	"name": "vscode-xyml",
+	"displayName": "XYML",
+	"description": "XYML language support for VS Code.",
+	"version": "0.0.1",
+	"scripts": {
+		"format": "prettier -w ."
+	},
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "xyml",
+				"aliases": [
+					"XYML",
+					"xyml"
+				],
+				"extensions": [
+					".xyml"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "xyml",
+				"scopeName": "source.xyml",
+				"path": "./syntaxes/xyml.tmLanguage.json"
+			}
+		]
+	},
+	"dependencies": {
+		"prettier": "^2.3.0"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"autoClosingPairs": [["\"", "\""]],
+	"indentationRules": {
+		"increaseIndentPattern": "^\\t*\\w+:\\s*$",
+		"decreaseIndentPattern": "^\\s+$"
+	}
+}
