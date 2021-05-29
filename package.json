@@ -1,6 +1,8 @@
 {
 	"name": "vscode-xyml",
 	"displayName": "XYML",
+	"publisher": "aglemons",
+	"icon": "icon.png",
 	"description": "XYML language support for VS Code.",
 	"version": "0.0.1",
 	"scripts": {
@@ -34,7 +36,7 @@
 			}
 		]
 	},
-	"dependencies": {
+	"devDependencies": {
 		"prettier": "^2.3.0"
 	}
 }
